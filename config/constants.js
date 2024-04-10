@@ -11,5 +11,6 @@ module.exports = {
   },
   bcrypt: require('bcrypt'),
   jwt:require('jsonwebtoken'),
-
+  cloudinary :require('cloudinary').v2,
+  streamifier :require('streamifier'),
 };

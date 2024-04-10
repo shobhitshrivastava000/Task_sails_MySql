@@ -23,5 +23,9 @@ module.exports = {
       type: 'string',
       required: true,
     },
+    profilePic: {
+      type: 'string',
+      allowNull: true, // Allow null if user doesn't upload a profile pic initially
+    },
   },
 };

@@ -5,7 +5,7 @@
  * @help        :: See https://sailsjs.com/docs/concepts/actions
  */
 
-const { HTTP_STATUS } = require("../../config/constants");
+const { HTTP_STATUS } = require('../../config/constants');
 
 module.exports = {
   createTask: async (req, res) => {
@@ -149,7 +149,7 @@ module.exports = {
 
   deleteTask: async (req, res) => {
     try {
-      
+
       const taskid = req.params.taskid;
       console.log(taskid);
 

@@ -7,11 +7,14 @@
   "dependencies": {
     "@sailshq/lodash": "^3.10.3",
     "bcrypt": "^5.1.1",
+    "cloudinary": "^2.1.0",
     "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
     "sails": "^1.5.9",
     "sails-hook-orm": "^4.0.0",
     "sails-hook-sockets": "^3.0.0",
-    "sails-mysql": "^3.0.1"
+    "sails-mysql": "^3.0.1",
+    "streamifier": "^0.1.1"
   },
   "devDependencies": {
     "eslint": "5.16.0"

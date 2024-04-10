@@ -9,16 +9,13 @@
  */
 
 module.exports.routes = {
-
   //user routes
   'POST /createuser/register': 'UserController.createUser',
   'POST /createuser/login': 'UserController.loginUser',
-  
+
   //Task routes
   'POST /createtask': 'TaskController.createTask',
   'GET /createtask/:createdbyid': 'TaskController.getTask',
   'PUT /createtask/updatetask/:taskid': 'TaskController.updateTask',
   'DELETE /createtask/deletetask/:taskid': 'TaskController.deleteTask',
-
-
 };
